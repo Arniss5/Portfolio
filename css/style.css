@@ -399,11 +399,13 @@ textarea {
         font-size: 2.4rem; } }
 
 .project-details__showcase-img-cont {
+  display: flex;
+  justify-content: center;
   width: 100%;
   margin-bottom: 6rem; }
 
 .project-details__showcase-img {
-  width: 100%; }
+  max-width: 100%; }
 
 .project-details__content-main {
   width: 100%;
@@ -412,11 +414,15 @@ textarea {
 
 .project-details__desc {
   margin: 0 0 7rem 0; }
-  .project-details__desc-para {
+  .project-details__desc-para,
+  .project-details__desc-para-list {
     font-size: 1.8rem;
     line-height: 1.7;
     color: grey;
     margin-bottom: 2rem; }
+  .project-details__desc-para-list li {
+    list-style-type: disc;
+  }
 
 .project-details__tools-used {
   margin: 0 0 7rem 0; }
